@@ -10,6 +10,10 @@ export class AppComponent {
   title = 'app';
 
   private showMessages() {
-    swal('Ops', 'Bem-vindo ao SweetAlert2', 'success');
+    swal('Bem-Vindo', 'Ao SweetAlert2 component', 'success');
+  }
+
+  private errorMessage() {
+    swal('Ops', 'Alguma coisa saiu errado', 'error');
   }
 }
